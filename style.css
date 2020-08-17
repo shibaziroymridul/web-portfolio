@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family:'Baloo Tamma 2', cursive; ;
 }
 h1{
     font-size: 50px;
+}
+h2 {
+    font-size: 40px;
 }
 .name-heighlight {
     color: orange;
@@ -11,12 +18,78 @@ h1{
 .half-width {
     width: 40%;
     float: left;
-    padding-left: 8%;
+    margin-left: 8%;
     font-size: 120%;
+    
     
 }
 .half-width img {
-    width: 100%;
-
-
+    width:100%;
+    
+  
 }
+.fonts {
+    padding-top: 12%;
+    color: rgb(63, 61, 61);
+}
+
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    
+}
+.half-width a {
+    text-decoration: none;
+    color: white ;
+    font-weight: 700;
+    background-color: turquoise;
+    margin-top: 100px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    
+}
+.dream-area {
+    clear: both;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
+.experience {
+    clear: both;
+}
+
+.single-ex {
+    box-shadow: 10px 10px 40px gray ;
+    margin: 4%;
+    padding-left: 15px;
+    height: 70%;
+    
+    
+}
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack {
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#jun {
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
+
