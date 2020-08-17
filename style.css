@@ -1,0 +1,22 @@
+body {
+    font-family:'Baloo Tamma 2', cursive; ;
+}
+h1{
+    font-size: 50px;
+}
+.name-heighlight {
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    padding-left: 8%;
+    font-size: 120%;
+    
+}
+.half-width img {
+    width: 100%;
+
+
+}
